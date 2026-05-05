@@ -158,7 +158,7 @@ if st.button("Forecast"):
     st.markdown(
     """
     <div style="text-align: center; color: gray; font-size: 0.9rem;">
-        📧 If you have experimental data or any questions, please feel free to contact the corresponding author: 
+        📧 If you have real experimental data or any questions, please feel free to contact the corresponding author: 
         <a href="mailto:liangcanhe@hit.edu.cn">liangcanhe@hit.edu.cn</a>
     </div>
     """,
