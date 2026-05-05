@@ -153,5 +153,17 @@ if st.button("Forecast"):
     csv = result_df.to_csv(index=False).encode("utf-8")
     st.download_button("Download the prediction results", data=csv, file_name="pred_result.csv", mime="text/csv")
 
+    # 
+    st.markdown("---")  # 分割线
+    st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 0.9rem;">
+        📧 If you have real experimental data or any questions, please feel free to contact the author: 
+        <a href="mailto:liangcanhe@hit.edu.cn">your_email@example.com</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
     # 可选：清理临时目录
     shutil.rmtree(step1_path.parent)
