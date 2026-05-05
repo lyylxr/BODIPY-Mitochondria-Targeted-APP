@@ -111,11 +111,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
-    '<p style="color: red; font-weight: bold;">This tool is a research prototype. Users should experimentally validate all predictions.</p>',
-    unsafe_allow_html=True
-)
-
 st.markdown("Input SMILES (limited to BODIPY derivatives)")
 
 smiles = st.text_input("SMILES：", placeholder="eg:CCOc1ccccc1")
