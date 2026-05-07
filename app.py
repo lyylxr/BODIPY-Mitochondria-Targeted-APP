@@ -100,7 +100,7 @@ st.markdown(
         <span style="font-size: 2.5rem; margin-right: 15px;">🎯</span>
         <div>
             <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.1;">
-                Organic small molecule
+                BODIPY organic small molecule
             </div>
             <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.1;">
                 mitochondrial targeting predictor
